@@ -6,13 +6,14 @@ body{
     margin: 0;
 }
 header{
-    background-image: url(/images/donation13.jpg);
+    background-image: url(./images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
     text-align: center;
     padding: 80px 200px;
     font-family: 'Inter', sans-serif;
+    mix-blend-mode: darken;
 }
 .primary-button{
     padding: 10px 20px;
