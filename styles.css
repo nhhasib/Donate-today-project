@@ -136,6 +136,7 @@ header{
     width: 250px;
     background-color: rgb(217, 217, 217);
     border-radius: 5px;
+    padding: 10px;
 }
 footer{
     margin-top: 20px;
