@@ -2,7 +2,9 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
-
+body{
+    margin: 0;
+}
 header{
     background-image: url(/images/donation13.jpg);
     background-repeat: no-repeat;
@@ -24,22 +26,24 @@ header{
     margin:auto;
     text-align: center;
     max-width: 50%;
-    padding: 50px 200px;
 }
 .section-description{
     font-size: 10px;
+    text-align: center;
 }
 .tk{
     display: flex;
-    gap:50px;
-    text-align: center;
-    margin: auto;
+    flex-wrap: wrap;
+    gap:40px;
     margin-bottom: 20px;
+    padding: 0;
+    justify-content: center;
 }
 .tk1{
     background-color: rgb(218, 218, 218);
     padding: 5px 20px;
     border-radius: 5px;
+    border: 1px solid white;
     }
 
 .donate .tk .tk1:hover{
@@ -49,10 +53,15 @@ header{
 .donate-plan{
     padding: 0 200px;
 }
+.donate-plan .section-title{
+    padding-top: 20px;
+    padding-bottom: 0;
+}
 .donate-section{
     display: flex;
     gap: 10px;
     padding-top: 20px;
+    justify-content: center;
 }
 .donate-plan h2,p{
     text-align: center;
@@ -127,4 +136,18 @@ header{
     width: 250px;
     background-color: rgb(217, 217, 217);
     border-radius: 5px;
+}
+footer{
+    margin-top: 20px;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+.footer-title{
+    font-family: 'Lobster', cursive;
+    color: #FF5959;
+}
+.footer-description{
+    color: white;
+    text-align: center;
 }
