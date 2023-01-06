@@ -18,7 +18,7 @@ header{
     border: 0;
     border-radius: 5px;
     color: white;
-    font-weight: 700;
+    font-weight: 500;
 }
 .donate{
     margin:auto;
@@ -34,6 +34,7 @@ header{
     gap:50px;
     text-align: center;
     margin: auto;
+    margin-bottom: 20px;
 }
 .tk1{
     background-color: rgb(218, 218, 218);
@@ -44,4 +45,86 @@ header{
 .donate .tk .tk1:hover{
     color: #FF5959;
     border:1px solid #FF5959;
+}
+.donate-plan{
+    padding: 0 200px;
+}
+.donate-section{
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+}
+.donate-plan h2,p{
+    text-align: center;
+}
+.plan1{
+    background-color: rgba(79, 157, 166, 0.1);
+}
+.plan2{
+    background-color: rgba(255, 89, 89, 0.1);
+}
+.plan3{
+    background-color: #FFF4D6;
+}
+.plan-icon{
+    height: 53px;
+    width: 53px;
+    padding: 25px 0 10px 10px;
+}
+.plan-title{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px;
+}
+.plan-description{
+    font-size: 10px;
+    padding: 10px;
+}
+/*lives section*/
+
+.lives-section{
+    display: flex;
+    gap: 30px;
+    padding: 50px 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+.donation0{
+    height: 200px;
+    width: 300px;
+    padding-left: 20px;
+}
+.lives-text h2,p{
+    text-align: left;
+}
+.survive-section{
+    display: flex;
+    gap: 20px;
+    padding: 50px 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+.donation5{
+    height: 200px;
+    width: 300px;
+    padding-right: 20px;
+}
+.updates {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+.updates .section-description{
+    text-align: center;
+}
+.form{
+    background-color: #FFF4D6;
+    padding: 20px 50px;
+    border-radius: 5px;
+}
+.email{
+    height: 33px;
+    width: 250px;
+    background-color: rgb(217, 217, 217);
+    border-radius: 5px;
 }
